@@ -1,4 +1,4 @@
-## Installing Scala and scala script oacking using sbt 
+## Installing Scala and scala script packaging using SBT 
 
 ### Steps: 
 - Install sbt 
