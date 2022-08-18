@@ -1,7 +1,6 @@
 ## Installing Scala and scala script oacking using sbt 
 
-`
-Steps :
+### Steps: 
 - Install sbt 
 - Update the build.sbt file with required spark versions, dependencies 
 - Run `/usr/local/bin/sbt assembly` (`where sbt`) to determine the sbt installation folder
@@ -13,6 +12,6 @@ Steps :
 ## Now that we have setup the `.jar` file, spin up the docker compose for the spark cluster
 `docker-compose up -d` 
 
-## Once Spaark cluster is up in the docker-compose, get into spark-master container 
-## Run below steps (assuming all dependencies are handled in the docker-compose mounts )
+## Once Spark cluster is up in the docker-compose, get into spark-master container 
+## Run below script (assuming all dependencies are handled in the docker-compose mounts )
 `bin/spark-submit wordcount-assembly.jar`
